@@ -1,0 +1,6 @@
+#!/bin/bash
+# NSU Audit Core - Web Launcher
+# Usage: ./web
+
+cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")" || exit 1
+exec python web_launcher.py "$@"

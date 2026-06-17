@@ -1,0 +1,81 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.*.local
+*.env
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/package-lock.json
+
+# =========================
+# Mobile / Flutter
+# =========================
+mobile/build/
+mobile/.dart_tool/
+mobile/.env
+mobile/*.lock
+mobile/linux/flutter/*.so
+mobile/linux/flutter/ephemeral/
+
+# =========================
+# EasyOCR Model Weights
+# =========================
+easyocr/
+~/.EasyOCR/
+model_weights/
+backend/services/.easyocr_models/
+
+# =========================
+# MCP / CLI Auth Tokens
+# =========================
+.nsu_mcp/
+mcp/credentials.json
+
+# =========================
+# Local Developer Tools
+# =========================
+.opencode/
+opencode.json
+pickup_guide.md
